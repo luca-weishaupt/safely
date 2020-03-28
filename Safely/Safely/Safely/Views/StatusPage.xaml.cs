@@ -16,5 +16,10 @@ namespace Safely.Views
         {
             InitializeComponent();
         }
+
+        void UpdateUserStatus(object sender, EventArgs e)
+        {
+
+        }
     }
 }
