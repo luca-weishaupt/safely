@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Essentials;
 
 namespace Safely.Model
@@ -34,7 +36,7 @@ namespace Safely.Model
             this.Latitude = latitude;
         }
 
-        public async void getLocation()
+        public async Task UpdateLocation()
         {
             try
             {
@@ -51,18 +53,22 @@ namespace Safely.Model
             }
             catch (FeatureNotSupportedException fnsEx)
             {
+                Debug.WriteLine("Failed: FeatureNotSupportedException");
                 // Handle not supported on device exception
             }
             catch (FeatureNotEnabledException fneEx)
             {
+                Debug.WriteLine("Failed: FeatureNotEnabledException");
                 // Handle not enabled on device exception
             }
             catch (PermissionException pEx)
             {
+                Debug.WriteLine("Failed: PermissionException");
                 // Handle permission exception
             }
             catch (Exception ex)
             {
+                Debug.WriteLine("Failed: Unknown Exception");
                 // Unable to get location
             }
         }

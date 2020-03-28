@@ -42,6 +42,7 @@ namespace Safely
             }
             await firebaseHelper.AddUser(email, RegisterPassword.Text);
             await DisplayAlert("Register", "Register Succeeded, your account has been created!", "Ok");
+            await firebaseHelper.UpdateLocation(email);
         }
 
         void BacktoSignup(object sender, EventArgs e)

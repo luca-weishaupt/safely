@@ -6,6 +6,7 @@ using Safely.Model;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
+using System.Diagnostics;
 
 namespace Safely.Data
 {
@@ -59,8 +60,24 @@ namespace Safely.Data
             await DeleteUser(updatedUser.Email);
             await firebase
                 .Child("Users")
-                .Child(toUpdateUser.Key)
-                .PutAsync(updatedUser);
+                .PostAsync(updatedUser);
+        }
+
+        public async Task UpdateLocation(string email)
+        {
+            Debug.WriteLine("Attempting to Update Location");
+            var toUpdateUser = (await firebase
+                .Child("Users")
+                .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
+
+            User updatedUser = (User)toUpdateUser.Object;
+            await updatedUser.UpdateLocation();
+            Debug.WriteLine("New Location " + updatedUser.Latitude.ToString() + ", " + updatedUser.Longitude.ToString());
+
+            await DeleteUser(updatedUser.Email);
+            await firebase
+                .Child("Users")
+                .PostAsync(updatedUser);
         }
 
         public async Task DeleteUser(string email)
