@@ -27,7 +27,7 @@ namespace Safely.Model
             this.Password = Password;
         }
 
-        public void updateLocation(float longitude, float latitude)
+        public void UpdateLocation(float longitude, float latitude)
         {
             this.Longitude = longitude;
             this.Latitude = latitude;
