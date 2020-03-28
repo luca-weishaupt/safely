@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "41clLQ8doEiM/iNO0EFFO4yQtMjt6HkjIoQLPi7EKE8dUArK13fJsiutPkNV1ebEglO4mil3U78cJTXgtytW0g==",
+  "dgSpecHash": "lKh3R/L5L1/wqHkJAfwYsPzvtdZfW+fOuPDzzCwQW1OKbsEbKqrOXMkU94O2Y8HtgBLwGo+8eIcElapl41hGEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
+  "projectFilePath": "C:\\Users\\FynnS\\Source\\Repos\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\William\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\FynnS\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],

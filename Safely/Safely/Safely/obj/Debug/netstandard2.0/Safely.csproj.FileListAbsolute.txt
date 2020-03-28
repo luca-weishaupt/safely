@@ -1,0 +1,7 @@
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\Safely.deps.json
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\Safely.dll
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.csprojAssemblyReference.cache
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.AssemblyInfoInputs.cache
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.AssemblyInfo.cs
