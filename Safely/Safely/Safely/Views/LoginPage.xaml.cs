@@ -23,14 +23,9 @@ namespace Safely.Views
 
         void Init()
         {
-            BackgroundColor = Constants.BackgroundColor;
-            Lbl_Email.TextColor = Constants.MainTextColor;
-            Lbl_Password.TextColor = Constants.MainTextColor;
-            ActivitySpinner.IsVisible = false;
-            LoginIcon.HeightRequest = Constants.LoginInconHeight;
-            LoginIcon.WidthRequest = Constants.LoginIconWidth;
-            Entry_Email.BackgroundColor = Constants.BoxColor;
-            Entry_Password.BackgroundColor = Constants.BoxColor;
+            
+            
+         
         }
 
         async void SignInProcedure(object sender, EventArgs e)
@@ -50,6 +45,11 @@ namespace Safely.Views
 
             await DisplayAlert("Login", "Login Failed, wrong email or password", "Ok");
             
+        }
+
+        void RegisterProcedure(object sender, EventArgs e)
+        {
+
         }
     }
 }

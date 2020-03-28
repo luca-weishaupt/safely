@@ -1829,24 +1829,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FynnS\\.nuget\\packages\\": {},
+    "C:\\Users\\William\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
       "projectName": "Safely.iOS",
-      "projectPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
-      "packagesPath": "C:\\Users\\FynnS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.iOS\\obj\\",
+      "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\FynnS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1860,8 +1860,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
-              "projectPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj"
+            "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
+              "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj"
             }
           }
         }
