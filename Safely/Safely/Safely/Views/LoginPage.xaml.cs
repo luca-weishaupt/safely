@@ -16,18 +16,31 @@ namespace Safely.Views
         public LoginPage()
         {
             InitializeComponent();
+            Init();
+        }
+
+        void Init()
+        {
+            BackgroundColor = Constants.BackgroundColor;
+            Lbl_Email.TextColor = Constants.MainTextColor;
+            Lbl_Password.TextColor = Constants.MainTextColor;
+            ActivitySpinner.IsVisible = false;
+            LoginIcon.HeightRequest = Constants.LoginInconHeight;
+            LoginIcon.WidthRequest = Constants.LoginIconWidth;
+            Entry_Email.BackgroundColor = Constants.BoxColor;
+            Entry_Password.BackgroundColor = Constants.BoxColor;
         }
 
         void SignInProcedure(object sender, EventArgs e)
         {
-            User user = new User(Entry_Username.Text, Entry_Password.Text);
+            User user = new User(Entry_Email.Text, Entry_Password.Text);
             if (user.CheckInformation())
             {
                 DisplayAlert("Login", "Login Success", "Ok");
             }
             else
             {
-                DisplayAlert("Login", "Login Failed, empty username or password", "Ok");
+                DisplayAlert("Login", "Login Failed, empty email or password", "Ok");
             }
         }
     }

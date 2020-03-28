@@ -6,12 +6,27 @@
              mc:Ignorable="d"
              x:Class="Safely.Views.LoginPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="Lbl_Username" Text="Username"/>
-            <Entry x:Name="Entry_Username" Placeholder="Username"/>
-            <Label x:Name="Lbl_Password" Text="Password"/>
-            <Entry x:Name="Entry_Password" Placeholder="Password"/>
-            <Button Text="Sign in" Clicked="SignInProcedure"/>
+        <StackLayout x:Name="MasterLayout">
+
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,80,0,0"></Image>
+            </StackLayout>
+            
+
+
+            
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+
+                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"/>
+
+                <Label x:Name="Lbl_Email" Text="Username"/>
+                <Entry x:Name="Entry_Email" Placeholder="Username"/>
+                <Label x:Name="Lbl_Password" Text="Password"/>
+                <Entry x:Name="Entry_Password" Placeholder="Password"/>
+                <Button Text="Sign in" Clicked="SignInProcedure"/>
+            
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

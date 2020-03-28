@@ -940,6 +940,7 @@ C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+<<<<<<< HEAD
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\flata\06DC6677B6252BAD.stamp
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\flata\429809BEA3253695.stamp
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\flata\5289B49BF4254275.stamp
@@ -1000,3 +1001,6 @@ C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\and
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\firebase\FirebaseApp_BackgroundStateChangeListenerImplementor.java
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\firebase\FirebaseApp_IdTokenListenerImplementor.java
 C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\firebase\FirebaseApp_IdTokenListenersCountChangedListenerImplementor.java
+=======
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\res\drawable\logo1.png
+>>>>>>> 3e83bd673b6b55767f428faf106d7945c8424c2f
