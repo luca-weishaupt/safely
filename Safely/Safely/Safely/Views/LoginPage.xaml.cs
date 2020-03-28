@@ -23,8 +23,8 @@ namespace Safely.Views
 
         void Init()
         {
-            
-            
+
+            BackgroundColor = Constants.BackgroundColor;
          
         }
 
