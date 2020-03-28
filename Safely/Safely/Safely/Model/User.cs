@@ -10,7 +10,6 @@ namespace Safely.Model
         public string Name { get; set; }
 
         public string Email { get; set; }
-        public string Username { get; set; }
         public string Password { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }
@@ -30,7 +29,7 @@ namespace Safely.Model
 
         public bool CheckInformation()
         {
-            if(this.Username.Equals("") || this.Password.Equals(""))
+            if(this.Email.Equals("") || this.Password.Equals(""))
             {
                 return false;
             }

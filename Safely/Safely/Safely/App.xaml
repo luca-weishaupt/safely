@@ -6,6 +6,15 @@
              mc:Ignorable="d"
              x:Class="Safely.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#2471A3</Color>
+            <Color x:Key="PrimaryWhite">#FFFFFF</Color>
 
+            <Style x:Key="PrimaryButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource PrimaryWhite}"></Setter>
+            </Style>
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>

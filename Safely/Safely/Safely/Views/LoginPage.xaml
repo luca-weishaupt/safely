@@ -5,26 +5,30 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Safely.Views.LoginPage">
+
     <ContentPage.Content>
+        
         <StackLayout x:Name="MasterLayout">
 
             <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
-                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,80,0,0"></Image>
+                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,80,0,0" HeightRequest="200" WidthRequest="200"></Image>
             </StackLayout>
-            
 
 
-            
-            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
 
-                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"/>
 
-                <Label x:Name="Lbl_Email" Text="Username"/>
-                <Entry x:Name="Entry_Email" Placeholder="Username"/>
-                <Label x:Name="Lbl_Password" Text="Password"/>
-                <Entry x:Name="Entry_Password" Placeholder="Password"/>
-                <Button Text="Sign in" Clicked="SignInProcedure"/>
-            
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand" Margin="20">
+
+                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True" IsVisible="False"/>
+
+                <Entry x:Name="Entry_Email" Placeholder="Email"/>
+                <Entry x:Name="Entry_Password" Placeholder="Password" IsPassword="True"/>
+                <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInProcedure" Style="{StaticResource PrimaryButton}"/>
+                <Button x:Name="RegisterBtn" 
+                        Text="Register" 
+                        Clicked="RegisterProcedure" 
+                        HorizontalOptions="End"
+                        />
             </StackLayout>
             
         </StackLayout>
