@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Essentials;
 
+
 namespace Safely.Model
 {
     class User
