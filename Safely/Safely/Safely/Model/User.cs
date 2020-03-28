@@ -13,6 +13,30 @@ namespace Safely.Model
         public string Password { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }
+        enum Status {
+            Healthy,
+            Symptomatic,
+            Diagnosed,
+            Recovered
+        }
 
+        public User() { }
+        public User(string Username, string Password)
+        {
+            this.Username = Username;
+            this.Password = Password;
+        }
+
+        public bool CheckInformation()
+        {
+            if(this.Username.Equals("") || this.Password.Equals(""))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }
