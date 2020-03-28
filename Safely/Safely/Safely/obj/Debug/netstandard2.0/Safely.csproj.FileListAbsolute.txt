@@ -7,8 +7,6 @@ C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.AssemblyInfo.cs
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\ref\Safely.dll
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\Safely.pdb
-C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.csproj.CoreCompileInputs.cache
-C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.dll
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\ref\Safely.dll
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.pdb
@@ -27,3 +25,6 @@ C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\bin\Debug\netstan
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\ref\Safely.dll
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\Safely.pdb
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.csproj.CoreCompileInputs.cache
+C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\XamlC.stamp

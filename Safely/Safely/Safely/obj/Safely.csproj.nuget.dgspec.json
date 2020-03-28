@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {}
+    "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
+    "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
+        "projectUniqueName": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
         "projectName": "Safely",
-        "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\obj\\",
+        "projectPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
+        "packagesPath": "C:\\Users\\FynnS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FynnS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -45,7 +44,7 @@
           "dependencies": {
             "FirebaseDatabase.net": {
               "target": "Package",
-              "version": "[4.0.4, )"
+              "version": "[3.3.3, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -53,13 +52,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.5.0.495, )"
             }
           },
           "imports": [
