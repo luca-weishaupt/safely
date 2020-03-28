@@ -54,7 +54,7 @@ namespace Safely.Data
                 .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
 
             User updatedUser = (User) toUpdateUser.Object;
-            updatedUser.updateLocation(longitude, latitude);
+            updatedUser.UpdateLocation(longitude, latitude);
 
             await DeleteUser(updatedUser.Email);
             await firebase

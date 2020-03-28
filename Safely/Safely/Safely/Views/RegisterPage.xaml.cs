@@ -18,6 +18,7 @@ namespace Safely
         public RegisterPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
          async void RegisterProcedure(object sender, EventArgs e)
@@ -35,6 +36,7 @@ namespace Safely
                 return;
             }
             await firebaseHelper.AddUser(email, RegisterPassword.Text);
+           /* await Displ*/
         }
     }
 }

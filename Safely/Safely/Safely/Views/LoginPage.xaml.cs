@@ -18,6 +18,7 @@ namespace Safely.Views
         public LoginPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             Init();
         }
 
