@@ -6,7 +6,11 @@
              mc:Ignorable="d"
              x:Class="Safely.RegisterPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+        <StackLayout>
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Image Source="logo1.png" HeightRequest="150" WidthRequest="150" Margin="0,80,0,0"></Image>
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
           
   
             <Entry x:Name="RegisterEmail" Placeholder="Email"></Entry>
@@ -17,7 +21,8 @@
                 <Switch IsToggled="False"></Switch>
             </StackLayout>
             <Button x:Name="RegisterBtn" Text="Sign Up" Clicked="RegisterProcedure"/>
-            <Label Text="Already have account? Sign In" TextColor="Blue"></Label>
+            <Button Text="Already have account? Sign In" TextColor="Blue" BackgroundColor="Transparent" FontSize="12" Clicked="BacktoSignup"></Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

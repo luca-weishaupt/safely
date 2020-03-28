@@ -48,9 +48,9 @@ namespace Safely.Views
             
         }
 
-        async void RegisterProcedure(object sender, EventArgs e)
+        void RegisterPage(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }
