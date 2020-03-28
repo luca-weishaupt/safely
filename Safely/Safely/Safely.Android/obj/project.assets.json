@@ -2588,24 +2588,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {},
+    "C:\\Users\\FynnS\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
+      "projectUniqueName": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
       "projectName": "Safely.Android",
-      "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
-      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.Android\\obj\\",
+      "projectPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
+      "packagesPath": "C:\\Users\\FynnS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FynnS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2619,8 +2619,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
-              "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj"
+            "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj": {
+              "projectPath": "C:\\Users\\FynnS\\source\\repos\\safely\\Safely\\Safely\\Safely\\Safely.csproj"
             }
           }
         }

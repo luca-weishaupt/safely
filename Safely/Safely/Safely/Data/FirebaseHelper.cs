@@ -31,8 +31,7 @@ namespace Safely.Data
         }
 
         public async Task AddUser(string email, string password)
-        {
-
+        { 
             await firebase
                 .Child("Users")
                 .PostAsync(new User() 

@@ -30,7 +30,6 @@ namespace Safely.Views
 
         async void SignInProcedure(object sender, EventArgs e)
         {
-            await firebaseHelper.AddUser("fynnsu@outlook.com", "test");
             if (Entry_Email.Text != null)
             {
                 var userFromDatabase = await firebaseHelper.GetUser(Entry_Email.Text);
