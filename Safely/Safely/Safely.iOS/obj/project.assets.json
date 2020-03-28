@@ -270,7 +270,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseDatabase.net": "3.3.3",
+          "FirebaseDatabase.net": "4.0.4",
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.495"
@@ -552,7 +552,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseDatabase.net": "3.3.3",
+          "FirebaseDatabase.net": "4.0.4",
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.495"
@@ -834,7 +834,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseDatabase.net": "3.3.3",
+          "FirebaseDatabase.net": "4.0.4",
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.495"
@@ -1116,7 +1116,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FirebaseDatabase.net": "3.3.3",
+          "FirebaseDatabase.net": "4.0.4",
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.495"

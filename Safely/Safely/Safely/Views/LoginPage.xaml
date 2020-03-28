@@ -20,7 +20,7 @@
                 <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"/>
 
                 <Label x:Name="Lbl_Email" Text="Username"/>
-                <Entry x:Name="Entry_Email" Placeholder="Username"/>
+                <Entry x:Name="Entry_Email" Placeholder="Email"/>
                 <Label x:Name="Lbl_Password" Text="Password"/>
                 <Entry x:Name="Entry_Password" Placeholder="Password"/>
                 <Button Text="Sign in" Clicked="SignInProcedure"/>

@@ -1004,3 +1004,4 @@ C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\and
 =======
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\res\drawable\logo1.png
 >>>>>>> 3e83bd673b6b55767f428faf106d7945c8424c2f
+C:\Users\FynnS\source\repos\safely\Safely\Safely\Safely.Android\obj\Debug\90\res\drawable\logo1.png

@@ -8,11 +8,12 @@ using Android.Widget;
 using Firebase.Auth;
 using Android.OS;
 using Firebase;
+using Android.Gms.Tasks;
 
 namespace Safely.Droid
 {
     [Activity(Label = "Safely", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IOnCompleteListener
     {
         public static FirebaseApp app;
         FirebaseAuth auth;
@@ -23,6 +24,7 @@ namespace Safely.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            InitFirebaseAuth();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
@@ -39,11 +41,21 @@ namespace Safely.Droid
                 app = FirebaseApp.InitializeApp(this, options);
             auth = FirebaseAuth.GetInstance(app);
         }
+
+        private void LoginUser(string email, string password)
+        {
+            auth.SignInWithEmailAndPassword(email, password).AddOnCompleteListener(this);
+        }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+        public void OnComplete(Task task)
+        {
+
         }
     }
 }
