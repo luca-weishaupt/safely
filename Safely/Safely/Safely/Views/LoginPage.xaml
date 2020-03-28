@@ -11,7 +11,7 @@
         <StackLayout x:Name="MasterLayout">
 
             <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
-                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,80,0,0" HeightRequest="200" WidthRequest="200"></Image>
+                <Image x:Name="LoginIcon" Source="logo_safely.png" Margin="0,80,0,0" HeightRequest="200" WidthRequest="200"></Image>
             </StackLayout>
 
 
