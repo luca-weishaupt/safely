@@ -7,9 +7,11 @@
              x:Class="Safely.Views.LoginPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Lbl_Username" Text="Username"/>
+            <Entry x:Name="Entry_Username" Placeholder="Username"/>
+            <Label x:Name="Lbl_Password" Text="Password"/>
+            <Entry x:Name="Entry_Password" Placeholder="Password"/>
+            <Button Text="Sign in"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
