@@ -1436,25 +1436,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\lucaw\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
+      "projectUniqueName": "D:\\COVID-Hack\\Safely\\Safely\\Safely\\Safely.csproj",
       "projectName": "Safely",
-      "projectPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
-      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\obj\\",
+      "projectPath": "D:\\COVID-Hack\\Safely\\Safely\\Safely\\Safely.csproj",
+      "packagesPath": "C:\\Users\\lucaw\\.nuget\\packages\\",
+      "outputPath": "D:\\COVID-Hack\\Safely\\Safely\\Safely\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
