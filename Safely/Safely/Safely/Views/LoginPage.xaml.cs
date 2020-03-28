@@ -45,7 +45,8 @@ namespace Safely.Views
             }
 
             await DisplayAlert("Login", "Login Failed, wrong email or password", "Ok");
-            
+            Application.Current.Properties["email"] = Entry_Email.Text;
+            await Navigation.PushAsync(new StatusPage());
         }
 
         void RegisterPage(object sender, EventArgs e)
