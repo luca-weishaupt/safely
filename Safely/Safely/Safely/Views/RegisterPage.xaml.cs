@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Safely.Data;
+using Safely.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +15,7 @@ namespace Safely
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegisterPage : ContentPage
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
         public RegisterPage()
         {
             InitializeComponent();
@@ -25,12 +28,19 @@ namespace Safely
         }
          async void RegisterProcedure(object sender, EventArgs e)
         {
-            if (RegisterEmail.Text.Equals("") || RegisterPassword.Equals(""))
+            if (RegisterEmail.Text.Equals("") || RegisterPassword.Text.Equals(""))
             {
-                await DisplayAlert("Login", "Login Success", "Ok");
+                await DisplayAlert("Register", "Register Failed, You must enter both an email and a password", "Ok");
                 return;
             }
-
+            string email = RegisterEmail.Text;
+            var existingUser = await firebaseHelper.GetUser(email);
+            if (existingUser != null && existingUser.Email.Equals(email))
+            {
+                await DisplayAlert("Register", "Register failed, a user with the same email address already exists", "Ok");
+                return;
+            }
+            await firebaseHelper.AddUser(email, RegisterPassword.Text);
         }
 
         void BacktoSignup(object sender, EventArgs e)

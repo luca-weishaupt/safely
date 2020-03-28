@@ -26,5 +26,11 @@ namespace Safely.Model
             this.Email = Email;
             this.Password = Password;
         }
+
+        public void updateLocation(float longitude, float latitude)
+        {
+            this.Longitude = longitude;
+            this.Latitude = latitude;
+        }
     }
 }
