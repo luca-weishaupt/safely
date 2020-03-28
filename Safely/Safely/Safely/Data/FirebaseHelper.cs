@@ -12,53 +12,60 @@ namespace Safely.Data
     class FirebaseHelper
     {
         FirebaseClient firebase = new FirebaseClient("https://safely-8a5fe.firebaseio.com/");
+ 
 
         public async Task<List<User>> GetAllUsers()
         {
-
             return (await firebase
                 .Child("Users")
                 .OnceAsync<User>())
                 .Select(item => new User
-            {
-                Name = item.Object.Name,
-                UserId = item.Object.UserId
-            }).ToList();
+                {
+                    Email = item.Object.Email,
+                    Password = item.Object.Password,
+                    Latitude = item.Object.Latitude,
+                    Longitude = item.Object.Longitude,
+                    Status = item.Object.Status
+                }).ToList();
 
         }
 
-        public async Task AddUser(int userId, string name)
+        public async Task AddUser(string email, string password)
         {
 
             await firebase
                 .Child("Users")
-                .PostAsync(new User() { UserId = userId, Name = name });
+                .PostAsync(new User() 
+                { 
+                    Email = email,
+                    Password = password
+                });
         }
 
-        public async Task<User> GetUser(int userId)
+        public async Task<User> GetUser(string email)
         {
             var allUsers = await GetAllUsers();
-            return allUsers.Where(a => a.UserId == userId).FirstOrDefault();
+            return allUsers.Where(a => a.Email == email).FirstOrDefault();
         }
-
-        public async Task UpdateUser(int userId, string name)
+/*
+        public async Task UpdateUser(string email, string password)
         {
             var toUpdateUser = (await firebase
                 .Child("Users")
-                .OnceAsync<User>()).Where(a => a.Object.UserId == userId).FirstOrDefault();
+                .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
 
             await firebase
                 .Child("Users")
                 .Child(toUpdateUser.Key)
-                .PutAsync(new User() { UserId = userId, Name = name });
+                .PutAsync(new User() { Email = email, Name = name });
         }
-
-        public async Task DeleteUser(int userId)
+*/
+/*        public async Task DeleteUser(string email)
         {
             var toDeleteUser = (await firebase
                 .Child("Users")
-                .OnceAsync<User>()).Where(a => a.Object.UserId == userId).FirstOrDefault();
+                .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
             await firebase.Child("Users").Child(toDeleteUser.Key).DeleteAsync();
-        }
+        }*/
     }
 }
