@@ -962,3 +962,4 @@ C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\res\drawable\logo1.png

@@ -9,6 +9,7 @@ namespace Safely.Model
         public int UserId { get; set; }
         public string Name { get; set; }
 
+        public string Email { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public float Latitude { get; set; }
@@ -21,9 +22,9 @@ namespace Safely.Model
         }
 
         public User() { }
-        public User(string Username, string Password)
+        public User(string Email, string Password)
         {
-            this.Username = Username;
+            this.Email = Email;
             this.Password = Password;
         }
 
