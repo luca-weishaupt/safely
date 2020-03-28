@@ -9,14 +9,14 @@
         <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
           
   
-            <Entry Placeholder="Email"></Entry>
-            <Entry Placeholder="Password" IsPassword="True"></Entry>
-            <Entry Placeholder="Confirm Password" IsPassword="True"></Entry>
+            <Entry x:Name="RegisterEmail" Placeholder="Email"></Entry>
+            <Entry x:Name="RegisterPassword" Placeholder="Password" IsPassword="True"></Entry>
+            <Entry x:Name="RegisterPasswordConfirm" Placeholder="Confirm Password" IsPassword="True"></Entry>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Save Password"></Label>
                 <Switch IsToggled="False"></Switch>
             </StackLayout>
-            <Button Text="Sign Up"></Button>
+            <Button x:Name="RegisterBtn" Text="Sign Up" Clicked="RegisterProcedure"/>
             <Label Text="Already have account? Sign In" TextColor="Blue"></Label>
         </StackLayout>
     </ContentPage.Content>
