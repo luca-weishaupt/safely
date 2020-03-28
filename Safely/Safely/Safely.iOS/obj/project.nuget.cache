@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "41clLQ8doEiM/iNO0EFFO4yQtMjt6HkjIoQLPi7EKE8dUArK13fJsiutPkNV1ebEglO4mil3U78cJTXgtytW0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
