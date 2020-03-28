@@ -28,8 +28,8 @@ namespace Safely
                 return;
             }
             string email = RegisterEmail.Text;
-            var existingUser = firebaseHelper.GetUser(email);
-            if (existingUser != null)
+            var existingUser = await firebaseHelper.GetUser(email);
+            if (existingUser != null && existingUser.Email.Equals(email))
             {
                 await DisplayAlert("Register", "Register failed, a user with the same email address already exists", "Ok");
                 return;
