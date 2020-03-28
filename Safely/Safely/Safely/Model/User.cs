@@ -4,6 +4,14 @@ using System.Text;
 
 namespace Safely.Model
 {
+
+    public enum STATUS
+    {
+        HEALTHY,
+        SYMPTOMATIC,
+        DIAGNOSED,
+        RECOVERED
+    }
     class User
     {
         public int UserId { get; set; }
@@ -13,6 +21,8 @@ namespace Safely.Model
         public string Password { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }
+
+        public STATUS Status { get; set; }
 
     }
 }
