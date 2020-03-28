@@ -46,25 +46,29 @@ namespace Safely.Data
             var allUsers = await GetAllUsers();
             return allUsers.Where(a => a.Email == email).FirstOrDefault();
         }
-/*
-        public async Task UpdateUser(string email, string password)
+
+        public async Task UpdateLocation(string email, float latitude, float longitude)
         {
             var toUpdateUser = (await firebase
                 .Child("Users")
                 .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
 
+            User updatedUser = (User) toUpdateUser.Object;
+            updatedUser.updateLocation(longitude, latitude);
+
+            await DeleteUser(updatedUser.Email);
             await firebase
                 .Child("Users")
                 .Child(toUpdateUser.Key)
-                .PutAsync(new User() { Email = email, Name = name });
+                .PutAsync(updatedUser);
         }
-*/
-/*        public async Task DeleteUser(string email)
+
+        public async Task DeleteUser(string email)
         {
             var toDeleteUser = (await firebase
                 .Child("Users")
                 .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
             await firebase.Child("Users").Child(toDeleteUser.Key).DeleteAsync();
-        }*/
+        }
     }
 }
