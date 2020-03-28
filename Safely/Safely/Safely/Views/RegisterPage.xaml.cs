@@ -16,5 +16,15 @@ namespace Safely
         {
             InitializeComponent();
         }
+
+         async void RegisterProcedure(object sender, EventArgs e)
+        {
+            if (RegisterEmail.Text.Equals("") || RegisterPassword.Equals(""))
+            {
+                await DisplayAlert("Login", "Login Success", "Ok");
+                return;
+            }
+
+        }
     }
 }
