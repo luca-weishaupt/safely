@@ -19,7 +19,7 @@ namespace Safely.Views
 
         void UpdateUserStatus(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
