@@ -5,3 +5,10 @@ C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.AssemblyInfoInputs.cache
 C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.AssemblyInfo.cs
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\ref\Safely.dll
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\bin\Debug\netstandard2.0\Safely.pdb
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.csproj.CoreCompileInputs.cache
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.dll
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\ref\Safely.dll
+C:\Users\FynnS\Source\Repos\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.pdb
