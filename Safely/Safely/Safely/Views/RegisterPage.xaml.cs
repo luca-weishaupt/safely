@@ -19,7 +19,7 @@ namespace Safely
         public RegisterPage()
         {
             InitializeComponent();
-            Init();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         void Init()
@@ -41,6 +41,7 @@ namespace Safely
                 return;
             }
             await firebaseHelper.AddUser(email, RegisterPassword.Text);
+            await DisplayAlert("Register", "Register Succeeded, your account has been created!", "Ok");
         }
 
         void BacktoSignup(object sender, EventArgs e)
