@@ -83,17 +83,15 @@ namespace Safely.Data
 
         public async Task UpdateStatus(string email, StatusEnum status)
         {
-            var toUpdateUser = (await firebase
-                .Child("Users")
-                .OnceAsync<User>()).Where(a => a.Object.Email == email).FirstOrDefault();
+            User toUpdateUser = await GetUser(email);
 
-            User updatedUser = (User)toUpdateUser.Object;
-            updatedUser.UpdateStatus(status);
+            Debug.WriteLine("UpdateStatusLatitude" + toUpdateUser.Latitude.ToString());
+            toUpdateUser.UpdateStatus(status);
 
-            await DeleteUser(updatedUser.Email);
+            await DeleteUser(toUpdateUser.Email);
             await firebase
                 .Child("Users")
-                .PostAsync(updatedUser);
+                .PostAsync(toUpdateUser);
         }
 
         public async Task DeleteUser(string email)

@@ -1,4 +1,5 @@
-﻿using Safely.Model;
+﻿using Safely.Data;
+using Safely.Model;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,6 +16,7 @@ namespace Safely.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MyMapPage : ContentPage
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
         public MyMapPage()
         {
             InitializeComponent();
@@ -28,6 +30,23 @@ namespace Safely.Views
             Position position = new Position(fakeUser.Latitude, fakeUser.Longitude);
             MapSpan mapSpan = new MapSpan(position, 0.05, 0.05);
             map.MoveToRegion(mapSpan);
+
+            List<User> allUsers = await firebaseHelper.GetAllUsers();
+            for (int i = 0; i < allUsers.Count; i++)
+            {
+                double lat = allUsers[i].Latitude;
+                double lon = allUsers[i].Longitude;
+
+                if (lat != 0 && lon != 0)
+                {
+                    var pin = new Pin()
+                    {
+                        Position = new Position(lat, lon),
+                        Label = allUsers[i].Email
+                    };
+                    map.Pins.Add(pin);
+                }
+            }
         }
     }
 }
