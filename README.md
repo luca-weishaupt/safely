@@ -19,7 +19,7 @@ The answer given will be stored in the database, and the user will be directed t
 <img src="https://github.com/luca-weishaupt/safely/blob/master/Safely/Safely/Safely/map.png" alt="alt text" width="200" height="400">
 
 # Installation
-To install this mobile application, you can clone this repository on your local computer, and connect your android phone to your computer. The iOS version has not yet been released on the App Store.
+To install this mobile application, you can clone this repository on your local computer, and connect your android phone to your computer. The iOS version has not yet been released on the App Store. If you want to try this app without an android, once the repository is cloned, [download an android emulator](https://visualstudio.microsoft.com/vs/msft-android-emulator/) from Visual Studio's extensions and run the project from VS itself.
 
 # Team
 | Y. Demers | W. Laplante | F. Schmitt  | L. Weishaupt  |
