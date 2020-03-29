@@ -18,13 +18,13 @@ namespace Safely.Views
         public LoginPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
             Init();
+            NavigationPage.SetHasNavigationBar(this, false);
+            
         }
 
         void Init()
         {
-
             BackgroundColor = Constants.BackgroundColor;
          
         }
@@ -39,14 +39,15 @@ namespace Safely.Views
                     if (Entry_Password.Text.Equals(userFromDatabase.Password.ToString()))
                     {
                         await DisplayAlert("Login", "Login Success", "Ok");
+                        Application.Current.Properties["email"] = Entry_Email.Text;
+                        Application.Current.Properties["stayLoggedIn"] = StayLoggedIn.IsToggled;
+                        await Navigation.PushAsync(new StatusPage());
                         return;
                     }
                 }
             }
 
             await DisplayAlert("Login", "Login Failed, wrong email or password", "Ok");
-            Application.Current.Properties["email"] = Entry_Email.Text;
-            await Navigation.PushAsync(new StatusPage());
         }
 
         void RegisterPage(object sender, EventArgs e)

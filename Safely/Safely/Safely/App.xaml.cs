@@ -11,7 +11,13 @@ namespace Safely
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            if (Application.Current.Properties.ContainsKey("stayLoggedIn") && (bool)Application.Current.Properties["stayLoggedIn"] && !((string)Application.Current.Properties["email"]).Equals(""))
+            {
+                MainPage = new NavigationPage(new StatusPage());
+            } else
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
         }
 
         protected override void OnStart()

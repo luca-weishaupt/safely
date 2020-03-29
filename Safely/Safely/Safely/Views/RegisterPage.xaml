@@ -17,7 +17,11 @@
             <Entry x:Name="RegisterPassword" Placeholder="Password" IsPassword="True"></Entry>
             <Entry x:Name="RegisterPasswordConfirm" Placeholder="Confirm Password" IsPassword="True"></Entry>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Stay LoggedIn"></Label>
+<<<<<<< HEAD
+                <Label Text="Stay Logged In"></Label>
+=======
+                <Label Text="Stay logged in" VerticalOptions="Center"></Label>
+>>>>>>> f962b6fc65fca510d9458ee6c52de95288d4fc4b
                 <Switch IsToggled="False"></Switch>
             </StackLayout>
             <Button x:Name="RegisterBtn" Text="Sign Up" Clicked="RegisterProcedure"/>
