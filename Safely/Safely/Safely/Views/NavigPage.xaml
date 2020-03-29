@@ -8,24 +8,27 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Spacing="0" Padding="0,80,0,20" WidthRequest="250">
+            <StackLayout Spacing="0" Padding="0,40,0,20" WidthRequest="250">
                 <Image Source="logo1.png" WidthRequest="250"></Image>
             </StackLayout>
 
             <StackLayout>
-                <Button Text="Map" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold">
-                </Button>
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="Black"/>
-                <Button Text="Update my status" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold"></Button>
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="Black"/>
-                <Button Text="About" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold"></Button>
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="Black"/>
-                <Button Text="Log out" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold"></Button>
-                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="Black"/>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Map" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Update my status" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="About" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Log out" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
 
             </StackLayout>
-                
-            
+
+            <StackLayout HorizontalOptions="Center" Padding="20">
+                <Label Text="Copyright © 2020. Safely." FontSize="14" FontAttributes="Italic"></Label>
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
