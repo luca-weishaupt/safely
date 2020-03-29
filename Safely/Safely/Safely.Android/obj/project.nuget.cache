@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bubFTisa6hZ0G76P6ZhtxmlcDyCm7DX0pyvUf7K0iwQ8gPN8PE9V4blaaXM+pcmRTndtMnVmAgDYHHaajvTPdA==",
+  "dgSpecHash": "Jy3CvnAkYxklKYv8oIjNVTquu6O4DzM0sGMHzHDt5LwUuOGFYsdVKV5TRnXMF93t1a31L38bor45pFtk7zvIgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
   "expectedPackageFiles": [
@@ -55,10 +55,12 @@
     "C:\\Users\\William\\.nuget\\packages\\xamarin.firebase.auth.interop\\71.1601.0\\xamarin.firebase.auth.interop.71.1601.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.firebase.common\\71.1610.0\\xamarin.firebase.common.71.1610.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.google.autovalue.annotations\\1.6.5\\xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.base\\71.1610.0\\xamarin.googleplayservices.base.71.1610.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.basement\\71.1620.0\\xamarin.googleplayservices.basement.71.1620.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.flags\\71.1601.0\\xamarin.googleplayservices.flags.71.1601.0.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.maps\\71.1610.0\\xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
   "logs": [

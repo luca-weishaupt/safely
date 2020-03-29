@@ -24,11 +24,17 @@
                 <Entry x:Name="Entry_Email" Placeholder="Email"/>
                 <Entry x:Name="Entry_Password" Placeholder="Password" IsPassword="True"/>
                 <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInProcedure" Style="{StaticResource PrimaryButton}"/>
-                <Button x:Name="RegisterBtn" 
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Stay logged in" VerticalOptions="Center"></Label>
+                    <Switch IsToggled="False"></Switch>
+                    <Button x:Name="RegisterBtn" 
                         Text="Register" 
                         Clicked="RegisterPage" 
-                        HorizontalOptions="End"
+                        HorizontalOptions="EndAndExpand"
+                            
                         />
+                </StackLayout>
+               
             </StackLayout>
             
         </StackLayout>

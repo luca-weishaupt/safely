@@ -949,6 +949,22 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.5.0.495": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v7.AppCompat": "28.0.0.3",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.GooglePlayServices.Maps": "71.1610.0"
+        },
+        "compile": {
+          "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll": {},
+          "lib/MonoAndroid90/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll": {},
+          "lib/MonoAndroid90/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "Xamarin.Google.AutoValue.Annotations/1.6.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1021,6 +1037,26 @@
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Flags.targets": {}
         }
       },
+      "Xamarin.GooglePlayServices.Maps/71.1610.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.GooglePlayServices.Base": "71.1610.0",
+          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid90/_._": {}
+        }
+      },
       "Xamarin.GooglePlayServices.Tasks/71.1601.0": {
         "type": "package",
         "dependencies": {
@@ -1047,7 +1083,8 @@
           "FirebaseDatabase.net": "4.0.4",
           "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.495"
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
           "bin/placeholder/Safely.dll": {}
@@ -2504,6 +2541,42 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.5.0.495": {
+      "sha512": "RMk9n/SBo5y/nqhLP+fP3Pnh+UdmUrkYnmJYC+GeJsIGQ5+SJoLESPEdzO/Bbgjm9PpVp5hR0xa2W0mqQUJmMg==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.5.0.495",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.5.0.495.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "Xamarin.Google.AutoValue.Annotations/1.6.5": {
       "sha512": "4TMqHEr5vYjyj81sr43aCrrEyPIvCmXGI788kKQMsTct/D30tNpUy4kaw7ZuPiEWBE62iqt5dXnSNtU66Ydwtg==",
       "type": "package",
@@ -2557,6 +2630,19 @@
         "lib/monoandroid90/Xamarin.GooglePlayServices.Flags.dll",
         "xamarin.googleplayservices.flags.71.1601.0.nupkg.sha512",
         "xamarin.googleplayservices.flags.nuspec"
+      ]
+    },
+    "Xamarin.GooglePlayServices.Maps/71.1610.0": {
+      "sha512": "zU0haiLNzg++mDqVMg36yhHVBiRYM9u3O7vgTLEp+fgDN3Nh133k5SJtjHBhooXxZ/2tFvaYWakHvF4kzqIw1A==",
+      "type": "package",
+      "path": "xamarin.googleplayservices.maps/71.1610.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid90/Xamarin.GooglePlayServices.Maps.targets",
+        "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll",
+        "xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
+        "xamarin.googleplayservices.maps.nuspec"
       ]
     },
     "Xamarin.GooglePlayServices.Tasks/71.1601.0": {

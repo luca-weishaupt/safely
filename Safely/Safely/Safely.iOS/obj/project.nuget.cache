@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FgnwaQTJKS8utZ0AOoxAx6ApuHA7h4SLMsll30xQefDcFjarG3ilWTlLvUrSOpLL+G7ZIEBd+azVK57wVs1J6A==",
+  "dgSpecHash": "53+2bfSd5YpVH2KT2JjQjKkY5VE9xQYpzsz0l8EKYttBQ4jm11cNk5hq8Y7bgwfUpW36dGP71Iklo8VnCWxrlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.iOS\\Safely.iOS.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,8 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.firebase.ios.auth\\6.4.2\\xamarin.firebase.ios.auth.6.4.2.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.firebase.ios.core\\6.6.0\\xamarin.firebase.ios.core.6.6.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
   ],
   "logs": [
     {
