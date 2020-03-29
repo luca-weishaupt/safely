@@ -39,13 +39,14 @@ namespace Safely.Views
                     if (Entry_Password.Text.Equals(userFromDatabase.Password.ToString()))
                     {
                         await DisplayAlert("Login", "Login Success", "Ok");
+                        Application.Current.Properties["email"] = Entry_Email.Text;
+                        await Navigation.PushAsync(new StatusPage());
                         return;
                     }
                 }
             }
 
             await DisplayAlert("Login", "Login Failed, wrong email or password", "Ok");
-            
         }
 
         void RegisterPage(object sender, EventArgs e)

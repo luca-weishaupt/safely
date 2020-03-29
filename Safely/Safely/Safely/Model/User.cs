@@ -37,6 +37,11 @@ namespace Safely.Model
             this.Latitude = latitude;
         }
 
+        public void UpdateStatus(StatusEnum status)
+        {
+            this.Status = status;
+        }
+
         public async Task UpdateLocation()
         {
             try
