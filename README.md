@@ -7,7 +7,11 @@
 - Map indicating regions where symptomatic and diagnosed people are located. This allows users to see what areas around them are at high risk for contagion.
 
 # Usage
-First, the user must sign in, and if he doesn't already have an account, he must register on the application. Once the user has correctly entered his/her credentials, he/she will land on a status page, where he/she will be asked about his/her health status. The answer given will be stored in the database, and the user will be directed toward the map, which is the principal feature of the application. The map shows the area of people that are either symptomatic, or diagnosed with COVID-19.
+First, the user must sign in, and if he doesn't already have an account, he must register on the application. <br>
+
+<img src="https://github.com/luca-weishaupt/safely/blob/master/Safely/Safely/Safely/login.png" width="200" height="400"> <br>
+
+Once the user has correctly entered his/her credentials, he/she will land on a status page, where he/she will be asked about his/her health status. The answer given will be stored in the database, and the user will be directed toward the map, which is the principal feature of the application. The map shows the area of people that are either symptomatic, or diagnosed with COVID-19.
 
 <img src="https://github.com/luca-weishaupt/safely/blob/master/Safely/Safely/Safely/map.png" alt="alt text" width="200" height="400">
 
