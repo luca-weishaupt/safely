@@ -17,9 +17,10 @@ namespace Safely.Views
         public StatusPage()
         {
             InitializeComponent();
-            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.FromHex("#003d59");
-            ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.White;
+            NavigationPage.SetHasNavigationBar(this, true);
         }
+
+
 
         async void UpdateUserStatus(object sender, EventArgs e)
         {

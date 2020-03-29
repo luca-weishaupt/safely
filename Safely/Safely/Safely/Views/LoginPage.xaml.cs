@@ -21,7 +21,6 @@ namespace Safely.Views
             Init();
             NavigationPage.SetHasNavigationBar(this, false);
             
-            
         }
 
         void Init()
