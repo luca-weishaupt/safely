@@ -8,7 +8,7 @@ using Xamarin.Essentials;
 
 namespace Safely.Model
 {
-    class User
+    public class User
     {
         public string Email { get; set; }
         public string Password { get; set; }

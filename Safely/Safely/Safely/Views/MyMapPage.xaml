@@ -5,8 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Safely.Views.MyMapPage"
-             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
-    <maps:Map x:Name="map" MapType="Hybrid" />
+             xmlns:local="clr-namespace:MapsAssets.Droid;assembly=MapsAssets.Droid">
+    <local:CustomMap x:Name="map" MapType="Hybrid" />
 
 
     <ContentPage.ToolbarItems>
