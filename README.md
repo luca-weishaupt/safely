@@ -18,7 +18,7 @@ Stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff st
 | https://github.com/yaeldemers | https://github.com/williamlaplante | https://github.com/FynnSu | https://github.com/luca-weishaupt |
 
 ## Disclaimer
-(i) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of the _Safely_ done without the development team's approval might lead to legal actions.
+(i) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
 
 (ii) The development team of _Safely_ and each of its individuals will not, under any circomstances, use the data provided by the user for any reason but the operation of said-application.
 
