@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms.Maps;
+using static Safely.Model.User;
 
-namespace Safely.Model
+namespace CustomRenderer
 {
-    class CustomPin : Pin
+    public class CustomPin : Pin
     {
+        public StatusEnum Status { get; set; }
     }
 }

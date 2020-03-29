@@ -1,4 +1,5 @@
-﻿using Safely.Data;
+﻿using CustomRenderer;
+using Safely.Data;
 using Safely.Model;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,7 @@ namespace Safely.Views
             await fakeUser.UpdateLocation();
             Position position = new Position(fakeUser.Latitude, fakeUser.Longitude);
             MapSpan mapSpan = new MapSpan(position, 0.05, 0.05);
-            map.MoveToRegion(mapSpan);
+            customMap.MoveToRegion(mapSpan);
 
             List<User> allUsers = await firebaseHelper.GetAllUsers();
             for (int i = 0; i < allUsers.Count; i++)
@@ -39,15 +40,16 @@ namespace Safely.Views
 
                 if (lat != 0 && lon != 0)
                 {
-                    var pin = new Pin()
+                    var pin = new CustomPin()
                     {
                         Position = new Position(lat, lon),
-                        Label = allUsers[i].Email
+                        Label = allUsers[i].Email,
+                        Status = allUsers[i].Status
                     };
-                    map.Pins.Add(pin);
+                    customMap.Pins.Add(pin);
                 }
             }
-            map.IsShowingUser = true;
+            customMap.IsShowingUser = true;
         }
 
         void ClickMenu(object sender, EventArgs e)
