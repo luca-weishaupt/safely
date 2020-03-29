@@ -36,7 +36,6 @@
                         BackgroundColor="#ff4d26"
                         TextColor="White"
                         FontAttributes="Bold"
-                        HeightRequest="20"
                         BorderRadius="10"
                         
                         />
