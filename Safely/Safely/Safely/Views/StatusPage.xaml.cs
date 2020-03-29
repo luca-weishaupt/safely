@@ -47,6 +47,7 @@ namespace Safely.Views
                 await firebaseHelper.UpdateStatus(email, Model.User.StatusEnum.Recovered);
                 await Navigation.PushAsync(new MyMapPage());
             }
+            await firebaseHelper.UpdateLocation(email);
         }
     }
 }
