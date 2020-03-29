@@ -32,7 +32,9 @@ namespace Safely.Views
             await fakeUser.UpdateLocation();
             Position position = new Position(fakeUser.Latitude, fakeUser.Longitude);
             MapSpan mapSpan = new MapSpan(position, 0.05, 0.05);
-            customMap.MoveToRegion(mapSpan);
+            CustomMap customMap = new CustomMap(mapSpan);
+            Content = customMap;
+          /*  customMap.MoveToRegion(mapSpan);*/
 
             List<User> allUsers = await firebaseHelper.GetAllUsers();
             for (int i = 0; i < allUsers.Count; i++)

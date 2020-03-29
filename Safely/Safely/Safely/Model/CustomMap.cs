@@ -11,5 +11,14 @@ namespace CustomRenderer
     {
         public List<CustomPin> CustomPins { get; set; }
 
+        public CustomMap() : base()
+        {
+
+        }
+
+        public CustomMap(MapSpan mapSpan) : base(mapSpan)
+        {
+        }
+
     }
 }
