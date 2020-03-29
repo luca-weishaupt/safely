@@ -1073,3 +1073,4 @@ C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\android\gms\maps\StreetViewPanorama_OnStreetViewPanoramaChangeListenerImplementor.java
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\android\gms\maps\StreetViewPanorama_OnStreetViewPanoramaClickListenerImplementor.java
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\mono\com\google\android\gms\maps\StreetViewPanorama_OnStreetViewPanoramaLongClickListenerImplementor.java
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\res\drawable\menu.png

@@ -29,5 +29,10 @@ namespace Safely.Views
             MapSpan mapSpan = new MapSpan(position, 0.05, 0.05);
             map.MoveToRegion(mapSpan);
         }
+
+        void ClickMenu(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NavigPage());
+        }
     }
 }
