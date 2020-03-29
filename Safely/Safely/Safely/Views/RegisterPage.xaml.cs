@@ -42,9 +42,15 @@ namespace Safely
                 await DisplayAlert("Register", "Register failed, a user with the same email address already exists", "Ok");
                 return;
             }
+            if (!RegisterPasswordConfirm.Text.Equals(RegisterPassword.Text))
+            {
+                await DisplayAlert("Register", "Register failed, the two passwords must match", "Ok");
+                return;
+            }
             await firebaseHelper.AddUser(email, RegisterPassword.Text);
             await DisplayAlert("Register", "Register Succeeded, your account has been created!", "Ok");
             Application.Current.Properties["email"] = email;
+            Application.Current.Properties["stayLoggedIn"] = StayLoggedIn.IsToggled;
             await Navigation.PushAsync(new StatusPage());
         }
 

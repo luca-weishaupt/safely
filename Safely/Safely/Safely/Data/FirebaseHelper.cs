@@ -11,7 +11,7 @@ using static Safely.Model.User;
 
 namespace Safely.Data
 {
-    class FirebaseHelper
+    public class FirebaseHelper
     {
         FirebaseClient firebase = new FirebaseClient("https://safely-8a5fe.firebaseio.com/");
  
