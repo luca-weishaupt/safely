@@ -33,15 +33,19 @@ namespace Safely.Views
             Button b = (Button)sender;
             if (b.Text.Equals("Healthy")) {
                 await firebaseHelper.UpdateStatus(email, Model.User.StatusEnum.Healthy);
+                await Navigation.PushAsync(new MyMapPage());
             } else if (b.Text.Equals("Symptomatic"))
             {
                 await firebaseHelper.UpdateStatus(email, Model.User.StatusEnum.Symptomatic);
+                await Navigation.PushAsync(new MyMapPage());
             } else if (b.Text.Equals("Diagnosed"))
             {
                 await firebaseHelper.UpdateStatus(email, Model.User.StatusEnum.Diagnosed);
+                await Navigation.PushAsync(new MyMapPage());
             } else if (b.Text.Equals("Recovered"))
             {
                 await firebaseHelper.UpdateStatus(email, Model.User.StatusEnum.Recovered);
+                await Navigation.PushAsync(new MyMapPage());
             }
         }
     }
