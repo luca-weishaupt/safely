@@ -19,7 +19,7 @@
             <StackLayout Orientation="Horizontal">
 
                 <Label Text="Stay logged in" VerticalOptions="Center"></Label>
-                <Switch IsToggled="False"></Switch>
+                <Switch x:Name="StayLoggedIn" IsToggled="False"></Switch>
             </StackLayout>
             <Button x:Name="RegisterBtn" Text="Sign Up" Clicked="RegisterProcedure"/>
             <Button Text="Already have account? Sign In" TextColor="Blue" BackgroundColor="Transparent" FontSize="12" Clicked="BacktoSignup"></Button>

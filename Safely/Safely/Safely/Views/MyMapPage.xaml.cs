@@ -47,6 +47,7 @@ namespace Safely.Views
                     map.Pins.Add(pin);
                 }
             }
+            map.IsShowingUser = true;
         }
 
         void ClickMenu(object sender, EventArgs e)
