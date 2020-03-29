@@ -11,7 +11,7 @@
         <StackLayout x:Name="MasterLayout">
 
             <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
-                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,80,0,0" HeightRequest="220" WidthRequest="220"></Image>
+                <Image x:Name="LoginIcon" Source="logo1.png" Margin="0,70,0,-20" HeightRequest="250" WidthRequest="220"></Image>
             </StackLayout>
 
 
@@ -21,9 +21,9 @@
 
                 <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True" IsVisible="False"/>
 
-                <Entry x:Name="Entry_Email" Placeholder="Email"/>
+                <Entry x:Name="Entry_Email" Placeholder="Email" />
                 <Entry x:Name="Entry_Password" Placeholder="Password" IsPassword="True"/>
-                <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInProcedure" Style="{StaticResource PrimaryButton}"/>
+                <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInProcedure" BackgroundColor="#003d59" BorderRadius="10" TextColor="White" FontSize="15" FontAttributes="Bold" />
                 <StackLayout Orientation="Horizontal">
 
                     <Label Text="Stay logged in" VerticalOptions="Center"></Label>
@@ -32,7 +32,13 @@
                         Text="Register" 
                         Clicked="RegisterPage" 
                         HorizontalOptions="EndAndExpand"
-                            
+                        FontSize="15"
+                        BackgroundColor="#ff4d26"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="20"
+                        BorderRadius="10"
+                        
                         />
                 </StackLayout>
                
