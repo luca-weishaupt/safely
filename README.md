@@ -1,6 +1,6 @@
 ![](Safely/Safely/Safely/logo_safely.jpg)
 
-_Selfy_ is a social-based pandemic monitoring application which tracks the spreading of deceases on a neighborhood scale.
+_Safely_ is a social-based pandemic monitoring application which tracks the spreading of deceases on a neighborhood scale.
 
 # Features
 Stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
