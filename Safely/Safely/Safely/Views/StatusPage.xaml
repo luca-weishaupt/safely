@@ -8,13 +8,16 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="15">
-                <Label Text="How would you evaluate your status?" FontSize="21" TextColor="Black" />
-
-                <Button Text="Healthy" Clicked="UpdateUserStatus"></Button>
-                <Button Text="Symptomatic" Clicked="UpdateUserStatus"></Button>
-                <Button Text="Diagnosed" Clicked="UpdateUserStatus"></Button>
-                <Button Text="Recovered" Clicked="UpdateUserStatus"></Button>
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="0,80,0,-40">
+                <Label Text="How would you" FontSize="36" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="evaluate your status?" FontSize="36" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="250" Spacing="15">
+              
+                <Button Text="Healthy" Clicked="UpdateUserStatus" BackgroundColor="#003d59" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Recovered" Clicked="UpdateUserStatus" BackgroundColor="#1d9171" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Symptomatic" Clicked="UpdateUserStatus" BackgroundColor="#fc9530" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Diagnosed" Clicked="UpdateUserStatus" BackgroundColor="#ff4d26" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
 
             </StackLayout>
         </StackLayout>
