@@ -24,7 +24,6 @@ namespace Safely.Views
 
         void Init()
         {
-
             BackgroundColor = Constants.BackgroundColor;
          
         }
@@ -40,6 +39,7 @@ namespace Safely.Views
                     {
                         await DisplayAlert("Login", "Login Success", "Ok");
                         Application.Current.Properties["email"] = Entry_Email.Text;
+                        Application.Current.Properties["stayLoggedIn"] = StayLoggedIn.IsToggled;
                         await Navigation.PushAsync(new StatusPage());
                         return;
                     }

@@ -24,6 +24,10 @@
                 <Entry x:Name="Entry_Email" Placeholder="Email"/>
                 <Entry x:Name="Entry_Password" Placeholder="Password" IsPassword="True"/>
                 <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInProcedure" Style="{StaticResource PrimaryButton}"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Stay Logged In"></Label>
+                    <Switch x:Name="StayLoggedIn" IsToggled="False"></Switch>
+                </StackLayout>
                 <Button x:Name="RegisterBtn" 
                         Text="Register" 
                         Clicked="RegisterPage" 
