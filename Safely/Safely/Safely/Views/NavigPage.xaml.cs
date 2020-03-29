@@ -19,6 +19,9 @@ namespace Safely.Views
         {
             InitializeComponent();
             Init();
+            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.FromHex("#003d59");
+            ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.White;
+
         }
 
         void Init()

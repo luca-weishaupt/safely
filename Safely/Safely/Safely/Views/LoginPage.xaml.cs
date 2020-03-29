@@ -48,7 +48,7 @@ namespace Safely.Views
                 }
             }
 
-            await DisplayAlert("Login", "Login Failed, wrong email or password", "Ok");
+            await DisplayAlert("Login", "Login failed, wrong email or password", "Ok");
         }
 
         void RegisterPage(object sender, EventArgs e)

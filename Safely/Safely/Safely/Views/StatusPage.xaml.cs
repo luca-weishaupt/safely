@@ -17,6 +17,8 @@ namespace Safely.Views
         public StatusPage()
         {
             InitializeComponent();
+            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.FromHex("#003d59");
+            ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.White;
         }
 
         async void UpdateUserStatus(object sender, EventArgs e)

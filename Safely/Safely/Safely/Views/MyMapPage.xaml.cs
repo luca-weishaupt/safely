@@ -22,6 +22,8 @@ namespace Safely.Views
         {
             InitializeComponent();
             initializeMap();
+            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.FromHex("#003d59");
+            ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.White;
         }
 
         async Task initializeMap()
