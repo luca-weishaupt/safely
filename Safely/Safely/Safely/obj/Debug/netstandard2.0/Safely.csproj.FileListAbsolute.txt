@@ -31,3 +31,4 @@ D:\COVID-Hack\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.pdb
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Views\StatusPage.xaml.g.cs
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Safely.csproj.CoreCompileInputs.cache
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely\obj\Debug\netstandard2.0\Views\MyMapPage.xaml.g.cs

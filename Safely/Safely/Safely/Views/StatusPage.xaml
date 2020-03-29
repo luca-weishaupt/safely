@@ -11,7 +11,7 @@
             <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="15">
                 <Label Text="How would you evaluate your status?" FontSize="21" TextColor="Black" />
 
-                <Button Text="Healthy" Clicked="UpdateUserStatus"></Button>
+                <Button Text="Healthy" Clicked="UpdateUserStatus" BackgroundColor=""></Button>
                 <Button Text="Symptomatic" Clicked="UpdateUserStatus"></Button>
                 <Button Text="Diagnosed" Clicked="UpdateUserStatus"></Button>
                 <Button Text="Recovered" Clicked="UpdateUserStatus"></Button>
