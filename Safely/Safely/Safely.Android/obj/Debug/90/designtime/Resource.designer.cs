@@ -8668,10 +8668,13 @@ namespace Safely.Droid
 			public const int notify_panel_notification_icon_bg = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int tooltip_frame_dark = 2131165317;
+			public const int signout = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int tooltip_frame_light = 2131165318;
+			public const int tooltip_frame_dark = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int tooltip_frame_light = 2131165319;
 			
 			static Drawable()
 			{
