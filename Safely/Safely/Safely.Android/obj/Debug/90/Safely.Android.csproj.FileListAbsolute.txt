@@ -552,3 +552,5 @@ C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\Safely.Android.csprojAssemblyReference.cache
+C:\Users\William\Desktop\CODEVID19\safely\Safely\Safely\Safely.Android\obj\Debug\90\android\src\crc64aa03b50eae899710\CustomMapRenderer.java

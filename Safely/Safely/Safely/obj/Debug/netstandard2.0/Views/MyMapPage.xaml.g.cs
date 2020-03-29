@@ -17,12 +17,8 @@ namespace Safely.Views {
     public partial class MyMapPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::CustomRenderer.CustomMap customMap;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MyMapPage));
-            customMap = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::CustomRenderer.CustomMap>(this, "customMap");
         }
     }
 }

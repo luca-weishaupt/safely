@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Jy3CvnAkYxklKYv8oIjNVTquu6O4DzM0sGMHzHDt5LwUuOGFYsdVKV5TRnXMF93t1a31L38bor45pFtk7zvIgA==",
+  "dgSpecHash": "i2mP58T7v8bDKw/uVpEepb+Lry+bAspylQzojpCqFZdRbKsmmiw/Fnqfzu9zPiWLdK0ElqG69RVWKOFFwgqQDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely.Android\\Safely.Android.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,16 @@
     "C:\\Users\\William\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.495 to 4.4.0.991265. Reference the package directly from the project to select a different version. \r\n Safely.Android -> Xamarin.Forms.Maps 4.5.0.495 -> Xamarin.Forms (>= 4.5.0.495) \r\n Safely.Android -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",
