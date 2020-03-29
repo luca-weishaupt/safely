@@ -14,7 +14,7 @@ Stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff st
 # Team
 | Y. Demers | W. Laplante | F. Schmitt  | L. Weishaupt  |
 | :---:     | :-:         | :-:         | :-:           |
-| I'll put sum cute pics   | I'll put sum cute pics   | I'll put sum cute pics   | I'll put sum cute pics   |
+|![](Safely/Safely/Safely/pic_yael.jpg)| ![](Safely/Safely/Safely/will_pic.jpg)|![](Safely/Safely/Safely/fynn_pic.jfif)|![](Safely/Safely/Safely/luca_pic.jpg)|
 | https://github.com/yaeldemers | https://github.com/williamlaplante | https://github.com/FynnSu | https://github.com/luca-weishaupt |
 
 ## Disclaimer
