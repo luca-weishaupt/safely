@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "97NRylUkxBnwplbRpRa06T29yaj3i1e1xdGjAELyOlasJMBhRCcIkpfVr2MzMoFkFb4baDNnqlM4G884Rs0FFA==",
+  "dgSpecHash": "FU97IVzCUSUDk0oB3RyfVFzsY7DZSxcx1AbBmDFaLn6oRvM6+qqj40tVm0dDCmd4dCMUWl0Ri9G91Vf7ZSIXEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\William\\Desktop\\CODEVID19\\safely\\Safely\\Safely\\Safely\\Safely.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\William\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\William\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

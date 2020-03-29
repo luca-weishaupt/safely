@@ -19,6 +19,7 @@ namespace Safely
         public RegisterPage()
         {
             InitializeComponent();
+            Init();
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
@@ -28,9 +29,10 @@ namespace Safely
         }
          async void RegisterProcedure(object sender, EventArgs e)
         {
-            if (RegisterEmail.Text.Equals("") || RegisterPassword.Text.Equals(""))
+            
+            if (RegisterEmail.Text.Equals(null) || RegisterPassword.Text.Equals(null))
             {
-                await DisplayAlert("Register", "Register Failed, You must enter both an email and a password", "Ok");
+                await DisplayAlert("Register", "Registration failed, You must enter both an email and a password", "Ok");
                 return;
             }
             string email = RegisterEmail.Text;
