@@ -64,8 +64,8 @@ namespace CustomRenderer.Droid
             switch (customPin.Status)
             {
                 case StatusEnum.Diagnosed:
-                    circleOptions.InvokeFillColor(0X33FF0000);
-                    circleOptions.InvokeStrokeColor(0X33FF0000);
+                    circleOptions.InvokeFillColor(0X66FF0000);
+                    circleOptions.InvokeStrokeColor(0X66FF0000);
                     NativeMap.AddCircle(circleOptions);
                     break;
                 case StatusEnum.Healthy:
