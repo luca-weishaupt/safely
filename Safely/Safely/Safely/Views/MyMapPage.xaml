@@ -6,8 +6,8 @@
              mc:Ignorable="d"
              x:Class="Safely.Views.MyMapPage"
              xmlns:local1="clr-namespace:CustomRenderer">
-    <local1:CustomMap x:Name="customMap"
-                   MapType="Street" />
+    <!--<local1:CustomMap x:Name="customMap"
+                   MapType="Street" /> -->
 
 
     <ContentPage.ToolbarItems>
