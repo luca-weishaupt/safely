@@ -7,6 +7,8 @@ using Safely.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Safely.Model;
+
 
 namespace Safely.Views
 {
@@ -16,6 +18,12 @@ namespace Safely.Views
         public NavigPage()
         {
             InitializeComponent();
+            Init();
+        }
+
+        void Init()
+        {
+            BackgroundColor = Constants.BackgroundColor;
         }
 
         void RedirectClick(object sender, EventArgs e)
