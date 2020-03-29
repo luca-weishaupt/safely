@@ -7,7 +7,7 @@
              x:Class="Safely.Views.MyMapPage"
              xmlns:local1="clr-namespace:CustomRenderer">
     <local1:CustomMap x:Name="customMap"
-                   MapType="Hybrid" />
+                   MapType="Street" />
 
 
     <ContentPage.ToolbarItems>
