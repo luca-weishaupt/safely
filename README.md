@@ -20,6 +20,6 @@ Stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff st
 ## Disclaimer
 (i) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
 
-(ii) The development team of _Safely_ and each of its individuals will not, under any circomstances, use the data provided by the user for any reason but the operation of said-application.
+(ii) The development team of _Safely_ and each of its individuals will not, under any circomstances, use the data provided by its users for any reasons but the operation of said-application.
 
-(iii) By utilising _Safely_ you give us permission to use your geo-location data aswell as your health status for the monitoring of the decease (in this case COVID19). By utilising _Safely_ you also accept to not press charge against our development team and each of its individuals regarding the usage of your data, unless it is used for any reasons other than the operation of said-application.
+(iii) By utilising _Safely_ you give us permission to use your geo-location data aswell as your health status for the monitoring of the decease (in this case _COVID 19_). By utilising _Safely_ you also accept to not press charge against our development team and each of its individuals regarding the usage of your data, unless it is used for any reasons other than the operation of said-application.
