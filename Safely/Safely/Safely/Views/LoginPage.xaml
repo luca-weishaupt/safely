@@ -27,7 +27,7 @@
                 <StackLayout Orientation="Horizontal">
 
                     <Label Text="Stay logged in" VerticalOptions="Center"></Label>
-                    <Switch IsToggled="False"></Switch>
+                    <Switch IsToggled="False" x:Name="StayLoggedIn"></Switch>
                     <Button x:Name="RegisterBtn" 
                         Text="Register" 
                         Clicked="RegisterPage" 
