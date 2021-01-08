@@ -1,6 +1,6 @@
 ![](Safely/Safely/Safely/logo_safely.jpg)
 
-#### _Safely_ is a social-based pandemic monitoring application which tracks the spreading of deceases on a neighborhood scale.
+#### _Safely_ is a social-based pandemic monitoring application which tracks the spreading of deseases on a neighborhood scale.
 
 # Features
 - Allows users to report their own condition, be it healthy, symptomatic, diagnosed or recovered. Their health status can always be updated.
@@ -27,8 +27,11 @@ To install this mobile application, you can clone this repository on your local 
 | https://github.com/yaeldemers | https://github.com/williamlaplante | https://github.com/fynnsu | https://github.com/luca-weishaupt |
 
 ## Disclaimer 
-(i) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
 
-(ii) The development team of _Safely_ and each of its individuals will not, under any circomstances, use the data provided by its users for any reasons but the operation of said-application.
+(i)  _Safely_ was built in a 48h time frame for the [LA Hacks20 hackathon](https://la-hacks-2020.devpost.com/).
 
-(iii) By utilising _Safely_ you give us permission to use your geo-location data aswell as your health status for the monitoring of the decease (in this case _COVID 19_). By utilising _Safely_ you also accept to not press charge against our development team and each of its individuals regarding the usage of your data, unless it is used for any reasons other than the operation of said-application.
+(ii) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
+
+(iii) The development team of _Safely_ and each of its individuals will not, under any circomstances, use the data provided by its users for any reasons but the operation of said-application.
+
+(iv) By utilising _Safely_ you give us permission to use your geo-location data aswell as your health status for the monitoring of the decease (in this case _COVID 19_). By utilising _Safely_ you also accept to not press charge against our development team and each of its individuals regarding the usage of your data, unless it is used for any reasons other than the operation of said-application.
