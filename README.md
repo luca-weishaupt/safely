@@ -28,7 +28,7 @@ To install this mobile application, you can clone this repository on your local 
 
 ## Disclaimer 
 
-(i)  _Safely_ was built in a 48h time frame for the [LA Hacks20 hackathon](https://la-hacks-2020.devpost.com/).
+(i)  _Safely_ was built in a 48h time frame for the [LA Hacks 2020](https://la-hacks-2020.devpost.com/) hackathon.
 
 (ii) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
 
